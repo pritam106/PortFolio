@@ -718,10 +718,13 @@ section {
   top: 0px;
   left: 38%;
 }
-.topleft h1 {
-  color: var(--color-secondary);
+.topleft h2 {
+  color: var(--color-white);
   font-size: 50px;
   font-weight: 20px;
+}
+.topleft span {
+  color: var(--color-secondary);
 }
 
 .bottomleft {
@@ -732,8 +735,8 @@ section {
 
 .middle {
   position: absolute;
-  top: 300px;
-  left: 51%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: var(--color-white);

@@ -656,7 +656,7 @@ section {
         text-transform: uppercase;
         font-size: 4rem;
         font-weight: 700;
-        // span { color: var(--color-secondary); }
+        span { color: var(--color-secondary); }
         .bg-text {
             position: absolute;
             top: 50%;
@@ -682,13 +682,14 @@ section {
             top: 0px;
                 left: 38%;
             
-                h1 {
+                h2 {
                     color: var(--color-white);
                     font-size: 50px;
                     font-weight: 20px;
-            
                 }
-                
+                span{
+                    color: var(--color-secondary);
+                }
             }
 
 .bottomleft {
@@ -698,8 +699,8 @@ section {
 }
 .middle {
     position: absolute;
-    margin-top: 500px;
-        left: 51%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: var(--color-white);
@@ -707,10 +708,10 @@ section {
         h1 {
             font-size: 40px;
         }
-                                                h5 {
-                                                    font-size: 25px;
-                                                }
-                                                }
+            h5 {
+                font-size: 25px;
+                    }
+    }
 hr {
     margin: auto;
     width: 40%;
